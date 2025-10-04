@@ -1,0 +1,308 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+[v i2___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i2___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"122 C:\Users\92112\MPLABXProjects\music.X\test.c
+[v _Variable_Delay Variable_Delay `(v  1 e 1 0 ]
+"129
+[v _PWM_Init PWM_Init `(v  1 e 1 0 ]
+"139
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"149
+[v _Set_PWM_Frequency Set_PWM_Frequency `(v  1 e 1 0 ]
+[v i2_Set_PWM_Frequency Set_PWM_Frequency `(v  1 e 1 0 ]
+"177
+[v _Play_Melody Play_Melody `(v  1 e 1 0 ]
+"199
+[v _main main `(v  1 e 1 0 ]
+"231
+[v _Hi_ISR Hi_ISR `IIH(v  1 e 1 0 ]
+"1313 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S195 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1731
+[s S204 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S213 . 1 `S195 1 . 1 0 `S204 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES213  1 e 1 @3987 ]
+[s S33 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1953
+[s S42 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S51 . 1 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES51  1 e 1 @3988 ]
+[s S235 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[s S244 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S253 . 1 `S235 1 . 1 0 `S244 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES253  1 e 1 @3989 ]
+"4501
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4605
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5315
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5413
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+[s S77 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5697
+[s S79 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S82 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S85 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S88 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S91 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S100 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S106 . 1 `S77 1 . 1 0 `S79 1 . 1 0 `S82 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 `S91 1 . 1 0 `S100 1 . 1 0 ]
+[v _RCONbits RCONbits `VES106  1 e 1 @4048 ]
+[s S144 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S153 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S162 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S166 . 1 `S144 1 . 1 0 `S153 1 . 1 0 `S162 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES166  1 e 1 @4082 ]
+"7553
+[v _IRCF0 IRCF0 `VEb  1 e 0 @32412 ]
+"7556
+[v _IRCF1 IRCF1 `VEb  1 e 0 @32413 ]
+"7559
+[v _IRCF2 IRCF2 `VEb  1 e 0 @32414 ]
+"69 C:\Users\92112\MPLABXProjects\music.X\test.c
+[v _song_choice song_choice `VEui  1 e 2 0 ]
+"70
+[v _size size `VEui  1 e 2 0 ]
+"71
+[v _prev_song_choice prev_song_choice `VEui  1 e 2 0 ]
+"72
+[v _melodies melodies `C[2][200]ui  1 e 800 0 ]
+"89
+[v _durations durations `C[2][200]ui  1 e 800 0 ]
+"105
+[v _lights lights `C[2][200]ui  1 e 800 0 ]
+"120
+[v _pwm_period pwm_period `ul  1 e 4 0 ]
+"199
+[v _main main `(v  1 e 1 0 ]
+{
+"229
+} 0
+"177
+[v _Play_Melody Play_Melody `(v  1 e 1 0 ]
+{
+"178
+[v Play_Melody@i i `i  1 a 2 60 ]
+"177
+[v Play_Melody@melody melody `*.32ui  1 p 2 48 ]
+[v Play_Melody@duration duration `*.32ui  1 p 2 50 ]
+[v Play_Melody@light light `*.32uc  1 p 2 52 ]
+[v Play_Melody@size size `i  1 p 2 54 ]
+"196
+} 0
+"122
+[v _Variable_Delay Variable_Delay `(v  1 e 1 0 ]
+{
+[v Variable_Delay@ms ms `ui  1 p 2 25 ]
+"126
+} 0
+"149
+[v _Set_PWM_Frequency Set_PWM_Frequency `(v  1 e 1 0 ]
+{
+"151
+[v Set_PWM_Frequency@prescaler prescaler `ui  1 a 2 46 ]
+"149
+[v Set_PWM_Frequency@freq freq `ui  1 p 2 38 ]
+"174
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 33 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 37 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 25 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 29 ]
+"30
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 31 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 30 ]
+[v ___awdiv@counter counter `uc  1 a 1 29 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 25 ]
+[v ___awdiv@divisor divisor `i  1 p 2 27 ]
+"41
+} 0
+"129 C:\Users\92112\MPLABXProjects\music.X\test.c
+[v _PWM_Init PWM_Init `(v  1 e 1 0 ]
+{
+"138
+} 0
+"139
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"144
+} 0
+"231
+[v _Hi_ISR Hi_ISR `IIH(v  1 e 1 0 ]
+{
+"252
+} 0
+"149
+[v i2_Set_PWM_Frequency Set_PWM_Frequency `(v  1 e 1 0 ]
+{
+"151
+[v i2Set_PWM_Frequency@prescaler prescaler `ui  1 a 2 21 ]
+"149
+[v i2Set_PWM_Frequency@freq freq `ui  1 p 2 13 ]
+"174
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\__lldiv.c
+[v i2___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v i2___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v i2___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v i2___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v i2___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v i2___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v i2___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v i2___awdiv@sign sign `uc  1 a 1 5 ]
+[v i2___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v i2___awdiv@dividend dividend `i  1 p 2 0 ]
+[v i2___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
